@@ -1,0 +1,84 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Length 1542 >>
+stream
+BT
+/F1 12 Tf
+72 740 Td
+(Northwind AI Research Handbook) Tj
+0 -18 Td
+(Version: July 2026) Tj
+0 -18 Td
+0 -18 Td
+(Project Phoenix is an internal retrieval augmented generation pilot.) Tj
+0 -18 Td
+(Its main goal is to answer employee questions from trusted PDF documents.) Tj
+0 -18 Td
+(The pilot owner is Mira Shah from the Knowledge Systems team.) Tj
+0 -18 Td
+0 -18 Td
+(The application indexes PDF files by extracting text, splitting it into chunks,) Tj
+0 -18 Td
+(creating local embeddings, and retrieving the most relevant chunks for each question.) Tj
+0 -18 Td
+0 -18 Td
+(OpenRouter is the approved cloud API provider for this pilot.) Tj
+0 -18 Td
+(The recommended OpenRouter model for initial testing is openai/gpt-4o-mini.) Tj
+0 -18 Td
+(The local model option should use Ollama with llama3.1 unless another model is configured.) Tj
+0 -18 Td
+0 -18 Td
+(Security rules:) Tj
+0 -18 Td
+(1. Do not upload payroll records, medical records, or private customer data.) Tj
+0 -18 Td
+(2. Keep API keys in .env or .streamlit/secrets.toml, not in source code.) Tj
+0 -18 Td
+(3. Answers should cite the retrieved PDF source when possible.) Tj
+0 -18 Td
+0 -18 Td
+(Evaluation checklist:) Tj
+0 -18 Td
+(Ask who owns Project Phoenix.) Tj
+0 -18 Td
+(Ask which API provider is approved.) Tj
+0 -18 Td
+(Ask which local model is recommended.) Tj
+0 -18 Td
+(Ask what data should not be uploaded.) Tj
+0 -18 Td
+0 -18 Td
+(If a question asks about something not written here, the assistant should say) Tj
+0 -18 Td
+(that it could not find the answer in the PDFs.) Tj
+0 -18 Td
+ET
+
+endstream
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000311 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1905
+%%EOF

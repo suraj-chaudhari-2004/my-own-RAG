@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my-own-rag"
+version = "0.1.0"
+description = "A Streamlit PDF RAG app with OpenRouter API and local Ollama model options."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26.0",
+    "openai>=1.40.0",
+    "pypdf>=4.2.0",
+    "requests>=2.32.0",
+    "sentence-transformers>=3.0.0",
+    "streamlit>=1.36.0",
+    "torchvision>=0.27.1",
+]
+
+[project.scripts]
+pdf-rag = "app:main"
+
+[tool.setuptools]
+py-modules = ["app"]
